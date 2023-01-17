@@ -200,11 +200,7 @@ class ElectrodeBridge extends EventEmitter {
   _buildMessage(
     type,
     name,
-    {
-      data,
-      error,
-      id = uuid.v4(),
-    } /*: {
+    {data, error, id = uuid.v4()} /*: {
       data?: Object|string|number,
       error?: Object,
       id?: string,
@@ -256,7 +252,7 @@ class ElectrodeBridge extends EventEmitter {
         }
 
         handler(message.data)
-          .then((data) => {
+          .then(data => {
             const responseMessage = this._buildMessage(
               ELECTRODE_BRIDGE_RESPONSE_TYPE,
               message.name,
@@ -264,7 +260,7 @@ class ElectrodeBridge extends EventEmitter {
             );
             return NativeModules.ElectrodeBridge.sendMessage(responseMessage);
           })
-          .catch((error) => {
+          .catch(error => {
             const errorMessage = this._buildMessage(
               ELECTRODE_BRIDGE_RESPONSE_TYPE,
               message.name,
