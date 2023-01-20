@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2238E19E1E8C29E8007FEDA8 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2238E18A1E8C28A9007FEDA8 /* libReact.a */; };
 		3017869A1E9E007F0051C4C6 /* UpdatePersonRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301786991E9E007F0051C4C6 /* UpdatePersonRequestData.swift */; };
 		301940E11E941389002A0C69 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301940E01E941389002A0C69 /* PersonAPI.swift */; };
 		301941911E94153A002A0C69 /* BirthYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301941901E94153A002A0C69 /* BirthYear.swift */; };
@@ -17,7 +16,6 @@
 		3019419A1E942F42002A0C69 /* EventProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301941991E942F42002A0C69 /* EventProcessorTests.swift */; };
 		3019419C1E94340F002A0C69 /* ElectrodeBridgeBaseTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 3029B1FC1E89D72E0041C665 /* ElectrodeBridgeBaseTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3029B1FE1E89D72E0041C665 /* ElectrodeBridgeBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3029B1FD1E89D72E0041C665 /* ElectrodeBridgeBaseTests.m */; };
-		30488CC51F6C82F5009ACF89 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30488CAF1F6C82E6009ACF89 /* libRCTWebSocket.a */; };
 		30488CF01F7041FD009ACF89 /* MiniApp.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 30488CEF1F7041FD009ACF89 /* MiniApp.jsbundle */; };
 		30488CF81F704743009ACF89 /* MiniApp42.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 30488CF71F704743009ACF89 /* MiniApp42.jsbundle */; };
 		30799ABD1F1D3CFB006D5044 /* CompleteAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30799ABC1F1D3CFB006D5044 /* CompleteAddress.swift */; };
@@ -60,12 +58,14 @@
 		30C8F4AC1E92DB2400E40221 /* Bridgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8F4AB1E92DB2400E40221 /* Bridgeable.swift */; };
 		30C8F4D41E9320AD00E40221 /* ElectrodeRequestHandlerProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8F4D31E9320AD00E40221 /* ElectrodeRequestHandlerProcessor.swift */; };
 		30C8F4DD1E9320E500E40221 /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8F4DC1E9320E500E40221 /* Processor.swift */; };
+		3C309963D86231550987F548 /* libPods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 663A026B5CA83C012A297815 /* libPods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.a */; };
 		7F8E8CBA1E8EC6D300CF0D8C /* ElectrodeBridgeTransceiver_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8E8CB91E8EC6D300CF0D8C /* ElectrodeBridgeTransceiver_Internal.h */; };
 		9678D27C1E68CC2D00719AD5 /* EventListenerProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9678D27B1E68CC2D00719AD5 /* EventListenerProcessor.swift */; };
 		9678D33C1E721BC600719AD5 /* ElectrodeUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9678D33B1E721BC600719AD5 /* ElectrodeUtilities.swift */; };
 		9678D33E1E7332F200719AD5 /* ElectrodeRequestProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9678D33D1E7332F200719AD5 /* ElectrodeRequestProcessor.swift */; };
 		96F9A1CF1E68AF0200752759 /* EventProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9A1CE1E68AF0200752759 /* EventProcessor.swift */; };
 		9C244B7C2347E4D800413C08 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C244B7B2347E4D700413C08 /* JavaScriptCore.framework */; };
+		A1A320B15F8ECCD2CE1B68C6 /* libPods-ElectrodeReactNativeBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D01554894E6B4B31482645 /* libPods-ElectrodeReactNativeBridge.a */; };
 		DA0B9F221E8DC323004A4629 /* ElectrodeBridgeTransactionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B9F211E8DC323004A4629 /* ElectrodeBridgeTransactionTests.m */; };
 		DA0B9F371E8DCC6D004A4629 /* ElectrodeBridgeEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B9F341E8DCC6D004A4629 /* ElectrodeBridgeEventTests.m */; };
 		DA0B9F381E8DCC6D004A4629 /* ElectrodeBridgeRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B9F351E8DCC6D004A4629 /* ElectrodeBridgeRequestTests.m */; };
@@ -120,13 +120,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
 			remoteInfo = "cxxreact-tvOS";
-		};
-		2238E19C1E8C2983007FEDA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2238E17E1E8C28A9007FEDA8 /* React.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 83CBBA2D1A601D0E00E9B192;
-			remoteInfo = React;
 		};
 		301D283320A0D1FE0060A5AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -236,6 +229,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4A053C37AF7C709E2C5775 /* Pods-ElectrodeReactNativeBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectrodeReactNativeBridge.debug.xcconfig"; path = "Target Support Files/Pods-ElectrodeReactNativeBridge/Pods-ElectrodeReactNativeBridge.debug.xcconfig"; sourceTree = "<group>"; };
 		2238E17E1E8C28A9007FEDA8 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		301786991E9E007F0051C4C6 /* UpdatePersonRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePersonRequestData.swift; sourceTree = "<group>"; };
 		301940E01E941389002A0C69 /* PersonAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
@@ -290,12 +284,16 @@
 		30C8F4AB1E92DB2400E40221 /* Bridgeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridgeable.swift; sourceTree = "<group>"; };
 		30C8F4D31E9320AD00E40221 /* ElectrodeRequestHandlerProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectrodeRequestHandlerProcessor.swift; sourceTree = "<group>"; };
 		30C8F4DC1E9320E500E40221 /* Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
+		46D01554894E6B4B31482645 /* libPods-ElectrodeReactNativeBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectrodeReactNativeBridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		663A026B5CA83C012A297815 /* libPods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E8CB91E8EC6D300CF0D8C /* ElectrodeBridgeTransceiver_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectrodeBridgeTransceiver_Internal.h; sourceTree = "<group>"; };
 		9678D27B1E68CC2D00719AD5 /* EventListenerProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListenerProcessor.swift; sourceTree = "<group>"; };
 		9678D33B1E721BC600719AD5 /* ElectrodeUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectrodeUtilities.swift; sourceTree = "<group>"; };
 		9678D33D1E7332F200719AD5 /* ElectrodeRequestProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectrodeRequestProcessor.swift; sourceTree = "<group>"; };
 		96F9A1CE1E68AF0200752759 /* EventProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProcessor.swift; sourceTree = "<group>"; };
 		9C244B7B2347E4D700413C08 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9CD35FAF93382AB037761B5B /* Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.debug.xcconfig"; path = "Target Support Files/Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests/Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EDD0D156A9F385BF977D008 /* Pods-ElectrodeReactNativeBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectrodeReactNativeBridge.release.xcconfig"; path = "Target Support Files/Pods-ElectrodeReactNativeBridge/Pods-ElectrodeReactNativeBridge.release.xcconfig"; sourceTree = "<group>"; };
 		DA0B9F211E8DC323004A4629 /* ElectrodeBridgeTransactionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectrodeBridgeTransactionTests.m; sourceTree = "<group>"; };
 		DA0B9F341E8DCC6D004A4629 /* ElectrodeBridgeEventTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectrodeBridgeEventTests.m; sourceTree = "<group>"; };
 		DA0B9F351E8DCC6D004A4629 /* ElectrodeBridgeRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectrodeBridgeRequestTests.m; sourceTree = "<group>"; };
@@ -309,6 +307,7 @@
 		DA4BE0C51E36DBCD00DBA1ED /* ElectrodeReactNativeBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectrodeReactNativeBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4BE0CC1E36DBCD00DBA1ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA889BA31EF4A08800EAFA43 /* ElectrodeTransceiverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectrodeTransceiverTests.m; sourceTree = "<group>"; };
+		FC82B493ADD8D612A08D8D1C /* Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.release.xcconfig"; path = "Target Support Files/Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests/Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,8 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C244B7C2347E4D800413C08 /* JavaScriptCore.framework in Frameworks */,
-				30488CC51F6C82F5009ACF89 /* libRCTWebSocket.a in Frameworks */,
-				2238E19E1E8C29E8007FEDA8 /* libReact.a in Frameworks */,
+				A1A320B15F8ECCD2CE1B68C6 /* libPods-ElectrodeReactNativeBridge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,12 +325,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4BE0C61E36DBCD00DBA1ED /* ElectrodeReactNativeBridge.framework in Frameworks */,
+				3C309963D86231550987F548 /* libPods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		056BCA222FD566554373AC60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C4A053C37AF7C709E2C5775 /* Pods-ElectrodeReactNativeBridge.debug.xcconfig */,
+				9EDD0D156A9F385BF977D008 /* Pods-ElectrodeReactNativeBridge.release.xcconfig */,
+				9CD35FAF93382AB037761B5B /* Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.debug.xcconfig */,
+				FC82B493ADD8D612A08D8D1C /* Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2238E17F1E8C28A9007FEDA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -440,6 +450,8 @@
 			isa = PBXGroup;
 			children = (
 				9C244B7B2347E4D700413C08 /* JavaScriptCore.framework */,
+				46D01554894E6B4B31482645 /* libPods-ElectrodeReactNativeBridge.a */,
+				663A026B5CA83C012A297815 /* libPods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -452,6 +464,7 @@
 				968332881E53C9EF0031C565 /* Libraries */,
 				DA4BE0BD1E36DBCD00DBA1ED /* Products */,
 				9C244B5F2347E4D700413C08 /* Frameworks */,
+				056BCA222FD566554373AC60 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -576,15 +589,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA4BE0D01E36DBCD00DBA1ED /* Build configuration list for PBXNativeTarget "ElectrodeReactNativeBridge" */;
 			buildPhases = (
+				33E8805CED8E798B7241BE84 /* [CP] Check Pods Manifest.lock */,
 				DA4BE0B71E36DBCD00DBA1ED /* Sources */,
 				DA4BE0B81E36DBCD00DBA1ED /* Frameworks */,
 				DA4BE0B91E36DBCD00DBA1ED /* Headers */,
 				DA4BE0BA1E36DBCD00DBA1ED /* Resources */,
+				F787AC81E4D6FD48ACAEE297 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2238E19D1E8C2983007FEDA8 /* PBXTargetDependency */,
 			);
 			name = ElectrodeReactNativeBridge;
 			productName = ElectrodeReactNativeBridge;
@@ -595,10 +609,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA4BE0D31E36DBCD00DBA1ED /* Build configuration list for PBXNativeTarget "ElectrodeReactNativeBridgeTests" */;
 			buildPhases = (
+				17C756B0A9E230E0A6A95575 /* [CP] Check Pods Manifest.lock */,
 				DA4BE0C11E36DBCD00DBA1ED /* Sources */,
 				DA4BE0C21E36DBCD00DBA1ED /* Frameworks */,
 				DA4BE0C31E36DBCD00DBA1ED /* Resources */,
 				3019419B1E9433FD002A0C69 /* Headers */,
+				308C19DF7D748A9EE629C9E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -823,6 +839,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17C756B0A9E230E0A6A95575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		308C19DF7D748A9EE629C9E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests/Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests/Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33E8805CED8E798B7241BE84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectrodeReactNativeBridge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F787AC81E4D6FD48ACAEE297 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectrodeReactNativeBridge/Pods-ElectrodeReactNativeBridge-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectrodeReactNativeBridge/Pods-ElectrodeReactNativeBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA4BE0B71E36DBCD00DBA1ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -885,11 +984,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2238E19D1E8C2983007FEDA8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = React;
-			targetProxy = 2238E19C1E8C2983007FEDA8 /* PBXContainerItemProxy */;
-		};
 		DA4BE0C81E36DBCD00DBA1ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DA4BE0BB1E36DBCD00DBA1ED /* ElectrodeReactNativeBridge */;
@@ -929,6 +1023,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -982,6 +1077,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -999,6 +1095,7 @@
 		};
 		DA4BE0D11E36DBCD00DBA1ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4A053C37AF7C709E2C5775 /* Pods-ElectrodeReactNativeBridge.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -1031,6 +1128,7 @@
 		};
 		DA4BE0D21E36DBCD00DBA1ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDD0D156A9F385BF977D008 /* Pods-ElectrodeReactNativeBridge.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -1062,6 +1160,7 @@
 		};
 		DA4BE0D41E36DBCD00DBA1ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD35FAF93382AB037761B5B /* Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -1078,6 +1177,7 @@
 		};
 		DA4BE0D51E36DBCD00DBA1ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC82B493ADD8D612A08D8D1C /* Pods-ElectrodeReactNativeBridge-ElectrodeReactNativeBridgeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
